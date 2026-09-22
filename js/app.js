@@ -3,7 +3,7 @@
   if (!cfg) return;
 
   const state = {
-    lang: localStorage.getItem("svadba-lang") || cfg.defaultLang || "en",
+    lang: cfg.defaultLang || "mk",
   };
 
   const $ = (sel, root) => (root || document).querySelector(sel);
@@ -85,7 +85,6 @@
 
   function setLang(lang) {
     state.lang = lang;
-    localStorage.setItem("svadba-lang", lang);
     applyCopy();
   }
 
