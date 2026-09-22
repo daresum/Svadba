@@ -6,9 +6,9 @@
 
 window.SVADBA = {
   couple: {
-    partner1: "Darko",
-    partner2: "Ljubica",
-    monogram: "D & L",
+    partner1: { en: "Darko", mk: "Дарко" },
+    partner2: { en: "Ljubica", mk: "Љубица" },
+    monogram: { en: "D & L", mk: "Д & Љ" },
   },
 
   /* ISO date with timezone. Used for the calendar file. */
@@ -72,7 +72,8 @@ window.SVADBA = {
       },
     },
     mk: {
-      metaTitle: "Дарко и Љубица",
+      metaTitle: "Дарко & Љубица",
+      dateLong: "Сабота, 17 Октомври 2026",
       place: {
         maps: "Мапа",
       },

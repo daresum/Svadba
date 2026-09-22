@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Darko &amp; Ljubica</title>
+    <title>Дарко &amp; Љубица</title>
     <meta name="description" content="Darko and Ljubica. 17 Октомври 2026. Porta Jazz, Bitola." />
     <meta property="og:title" content="Darko & Ljubica" />
     <meta property="og:description" content="17 Октомври 2026 · Porta Jazz, Bitola" />
@@ -18,7 +18,7 @@
   <body>
     <div class="disco-layer" id="disco-layer" aria-hidden="true"></div>
     <header class="site-header">
-      <span class="brand" data-bind="couple.monogram">D &amp; L</span>
+      <span class="brand" data-bind="couple.monogram">Д &amp; Љ</span>
       <div class="lang-switch" role="group" aria-label="Language">
         <button type="button" data-lang="mk" aria-pressed="true">МК</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
@@ -28,13 +28,13 @@
     <main>
       <section class="card" aria-label="Invitation">
         <h1 class="names">
-          <span data-bind="couple.partner1">Darko</span>
+          <span data-bind="couple.partner1">Дарко</span>
           <span class="amp">&amp;</span>
-          <span data-bind="couple.partner2">Ljubica</span>
+          <span data-bind="couple.partner2">Љубица</span>
         </h1>
 
         <figure class="photo is-empty" id="us-photo">
-          <img id="us-img" alt="Darko and Ljubica" />
+          <img id="us-img" alt="Дарко и Љубица" />
         </figure>
 
         <p class="when" data-bind-i18n="dateDisplay"></p>
@@ -70,7 +70,10 @@
             <input id="name" name="name" type="text" autocomplete="name" required />
           </div>
           <div class="field">
-            <label for="song" data-i18n="rsvp.song">Песна која ќе ве натера да играте?</label>
+            <label for="song">
+              <span data-i18n="rsvp.song">Песна која ќе ве натера да играте?</span>
+              <span class="optional" data-i18n="rsvp.optional">
+            </label>
             <input id="song" name="song" type="text" autocomplete="off" />
           </div>
           <p class="form-error" id="form-error" role="alert"></p>

@@ -25,9 +25,11 @@
   }
 
   function dateDisplay() {
+    const custom = t("dateLong");
+    if (custom) return custom;
     const date = new Date(cfg.date.iso);
     try {
-      return new Intl.DateTimeFormat(state.lang === "mk" ? "mk-MK" : "en-GB", {
+      return new Intl.DateTimeFormat("en-GB", {
         weekday: "long",
         day: "numeric",
         month: "long",
