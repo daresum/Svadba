@@ -8,7 +8,7 @@ window.SVADBA = {
   couple: {
     partner1: { en: "Darko", mk: "Дарко" },
     partner2: { en: "Ljubica", mk: "Љубица" },
-    monogram: { en: "D & L", mk: "Д & Љ" },
+    monogram: { en: "D & Lj", mk: "Д & Љ" },
   },
 
   /* ISO date with timezone. Used for the calendar file. */
