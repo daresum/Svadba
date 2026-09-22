@@ -57,7 +57,6 @@ window.SVADBA = {
         maps: "Map",
       },
       rsvp: {
-        kicker: "Kindly reply",
         title: "Will you attend?",
         yes: "Yes",
         no: "No",
